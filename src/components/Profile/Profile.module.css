@@ -1,0 +1,50 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.avatar {
+    padding-top: 5px;
+    width: 80px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+.stats>li {
+    width: 33%;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
